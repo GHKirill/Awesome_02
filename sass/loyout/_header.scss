@@ -1,0 +1,40 @@
+.header__overlay {
+  display: flex;
+  padding: 48px 0;
+  gap: 40px;
+  align-items: center;
+}
+
+.header__logo {
+  padding: 25px 0;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__link {
+  color: $title_black;
+  line-height: calc(24 / 16);
+  padding: 30px 0;
+}
+
+.header__button {
+  @extend %button-base;
+  background: $button_green_header;
+  border-radius: 3px;
+}
+// .button__svg {
+//   fill: black;
+//   width: 300px;
+//   height: 300px;
+//   border: 1px solid black;
+// }

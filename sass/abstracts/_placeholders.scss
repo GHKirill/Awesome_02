@@ -1,0 +1,24 @@
+%button-base {
+  border: none;
+  padding: 16px 12px;
+  color: $button_text;
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  // background: $green_gradient_2;
+  // border-radius: 3px;
+  // transition: background 2 linear, color 2 linear, box-shadow 2 linear;
+  transition: color 250ms linear, background 250ms linear, box-shadow 250ms linear;
+
+  &:hover,
+  &:focus {
+    background: $button_text;
+    color: $corporate_green;
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+    cursor: pointer;
+  }
+  &:active {
+    background: $button_text;
+    color: $corporate_green;
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.4);
+  }
+}

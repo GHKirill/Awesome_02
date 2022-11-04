@@ -1,0 +1,59 @@
+.team {
+  padding: 128px 0;
+}
+
+.team__title {
+  padding-bottom: 8px;
+}
+
+.team__slogan {
+  padding-bottom: 40px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__card {
+  position: relative;
+  flex-basis: calc((100% - 64px) / 3);
+  padding: 24px 32px;
+  background: linear-gradient(
+      358.27deg,
+      rgba(100, 123, 100, 0.77) -118.86%,
+      rgba(100, 123, 100, 0) 25.62%,
+      rgba(100, 123, 100, 0) 98.53%
+    ),
+    #ffffff;
+  border-radius: 8px;
+}
+
+.team__photo {
+  margin-bottom: 24px;
+}
+
+.team__wrapper {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+}
+
+.team__speach {
+  font-style: italic;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+}
+
+.team__company {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  color: $title_black;
+}
+
+.team__name {
+  font-size: 14px;
+  line-height: calc(22 / 14);
+}

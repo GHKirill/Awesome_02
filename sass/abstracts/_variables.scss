@@ -1,0 +1,37 @@
+$green_1: #647b64;
+$green_gradient: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+$grey_1: #333333;
+$grey_2: #4f4f4f;
+$grey_3: #e5e5e5;
+$grey_4: #dfd1c0;
+$white_1: #fefefe;
+$white_2: #ffffff;
+$white_gradient: linear-gradient(
+    358.27deg,
+    rgba(100, 123, 100, 0.77) -118.86%,
+    rgba(100, 123, 100, 0) 25.62%,
+    rgba(100, 123, 100, 0) 98.53%
+  ),
+  #ffffff;
+
+$green_gradient_1: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+
+$green_gradient_2: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%),
+  linear-gradient(102.3deg, #65a2b5 -4.62%, #0f2976 178.22%), #0e70af;
+
+$yellow_1: #f3b562;
+$yellow_2: #dfd1c0;
+$yellow_3: #f0dcc5;
+
+// $background_page: $yellow_3;
+$background_page: $grey_3;
+$corporate_green: $green_1;
+$button_green_main: $green_gradient_1;
+$button_green_header: $green_gradient_2;
+$title_black: $grey_1;
+$title_yellow: $yellow_1;
+$text_black: $grey_2;
+
+$card_white: $white_2;
+$card_white_gradient: $white_gradient;
+$button_text: $white_1;

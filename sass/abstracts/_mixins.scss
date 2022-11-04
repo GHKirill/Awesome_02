@@ -1,0 +1,11 @@
+@mixin button(
+  $padding-height: 24px,
+  $padding-width: 24px,
+  $texttransform: uppercase,
+  $backgroundcolor: $button_green_main
+) {
+  text-transform: $texttransform;
+  padding: $padding-height $padding-width;
+  border: none;
+  background-color: $green_gradient;
+} ;

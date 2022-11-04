@@ -1,0 +1,97 @@
+.advantages__container {
+  padding: 128px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+}
+
+.advantages__title {
+  position: relative;
+  margin-bottom: 8px;
+  &::before {
+    position: absolute;
+    left: -137px;
+    top: -23px;
+    content: '';
+    display: inline-block;
+    width: 600px;
+    height: 160px;
+    background: linear-gradient(
+      164.26deg,
+      rgba(239, 128, 49, 0) -335.51%,
+      rgba(239, 128, 49, 0.15) -20.24%,
+      rgba(239, 128, 49, 0) 119.45%
+    );
+  }
+}
+
+.advantages__slogan {
+  margin-bottom: 40px;
+}
+
+.advantages__text {
+  line-height: calc(24 / 16);
+  width: 460px;
+  margin-bottom: 40px;
+}
+
+.advantages__svg {
+  width: 24px;
+  height: 24px;
+  fill: $corporate_green;
+  transition: fill 500ms linear;
+}
+
+.advantages__svg-box {
+  max-width: 48px;
+  padding: 12px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  background-color: $card_white;
+  transition: background-color 500ms linear;
+}
+
+.advantages__option {
+  color: $title_black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.advantages__card {
+  flex: 0 0 calc((100% - 72px) / 2);
+  border-radius: 8px;
+}
+
+.advantages__link {
+  display: inline-block;
+  padding: 32px 40px;
+  transition: background-color 500ms linear, box-shadow 500ms linear;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    background-color: $card_white;
+    box-shadow: 0px 5.87438px 31.33px rgba(155, 148, 148, 0.17);
+  }
+
+  &:hover .advantages__svg-box,
+  &:focus .advantages__svg-box {
+    background-color: $corporate_green;
+  }
+
+  &:hover .advantages__svg,
+  &:focus .advantages__svg {
+    fill: $card_white;
+  }
+}

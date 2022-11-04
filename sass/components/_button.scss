@@ -1,0 +1,19 @@
+.header__button {
+  @extend %button-base;
+  background: $button_green_header;
+  border-radius: 3px;
+}
+.button {
+  @extend %button-base;
+  background: $button_green_main;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.button__svg {
+  margin-left: 12px;
+  fill: currentColor;
+  width: 24px;
+  height: 16px;
+}
